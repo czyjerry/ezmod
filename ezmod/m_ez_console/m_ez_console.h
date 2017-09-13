@@ -48,6 +48,9 @@ END_JUCE_MODULE_DECLARATION
 	And, you can output UTF-8 strings by using this class in whatever compiling
 	environment, which is not possible using cout in VC compiler.
 
+	We provided a global object called "ezout", you can simply use this object
+	as you used to use the "cout".
+
 	We also provide a "command" method, which have the same function as "system".
 
 	Important: Be sure to call "InitUTF8Console" before any UTF-8 outputs.
@@ -62,6 +65,8 @@ END_JUCE_MODULE_DECLARATION
 
 	使用该类，您可以在任何编译环境下输出UTF-8字符串。这是使用cout在VC编译器中
 	无法实现的。
+
+	我们为该类提供了一个全局对象"ezout"，您可以像以前使用cout那样来使用这个对象。
 
 	同时，我们还提供了了一个"command"方法，该方法与"system"函数作用相同。
 
@@ -185,3 +190,5 @@ private:
 	HANDLE hConsoleOutput;
 #endif
 };
+
+extern ConsoleOutputStream ezout;

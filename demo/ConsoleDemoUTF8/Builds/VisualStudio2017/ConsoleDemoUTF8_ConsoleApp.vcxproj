@@ -527,10 +527,14 @@
     <ClCompile Include="..\..\..\..\..\..\..\czy\juce_5_1_1\juce-huckleberry-windows\JUCE\modules\juce_events\juce_events.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\ezmod\m_ez_console\m_ez_console.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_core.cpp"/>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_cryptography.cpp"/>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_data_structures.cpp"/>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_events.cpp"/>
+    <ClCompile Include="..\..\JuceLibraryCode\include_m_ez_console.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\..\czy\juce_5_1_1\juce-huckleberry-windows\JUCE\modules\juce_core\containers\juce_AbstractFifo.h"/>

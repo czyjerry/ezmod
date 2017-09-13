@@ -532,6 +532,9 @@
     <ClCompile Include="..\..\..\..\..\..\..\czy\juce_5_1_1\juce-huckleberry-windows\JUCE\modules\juce_events\juce_events.mm">
       <Filter>Juce Modules\juce_events</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\ezmod\m_ez_console\m_ez_console.cpp">
+      <Filter>Juce Modules\m_ez_console</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_core.cpp">
       <Filter>Juce Library Code</Filter>
     </ClCompile>
@@ -542,6 +545,9 @@
       <Filter>Juce Library Code</Filter>
     </ClCompile>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_events.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\include_m_ez_console.cpp">
       <Filter>Juce Library Code</Filter>
     </ClCompile>
   </ItemGroup>

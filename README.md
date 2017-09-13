@@ -1,1 +1,1 @@
-﻿# EZ Module for JUCE
+﻿# Some easy-to-use user modules for JUCE
